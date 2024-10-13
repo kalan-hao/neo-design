@@ -1,0 +1,64 @@
+/* Base styles */
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #004d40; /* Dark teal text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #00796b; /* Teal header */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #0097a7; /* Cyan navigation */
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    background-color: #b2ebf2; /* Light cyan main content */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #004d40; /* Dark teal footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: #00bcd4; /* Cyan button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0097a7; /* Darker cyan on hover */
+}
